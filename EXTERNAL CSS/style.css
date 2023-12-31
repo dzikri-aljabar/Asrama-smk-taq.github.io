@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url("../assets/IMG-20231228-WA0012.jpg");
+  height: 78vh;
+  flex-shrink: 0;
+  background-size: 1440px 900px;
+  background-position: center;
+  margin-top: 6%;
+}
+
+.banner-content {
+  height: 100%;
+  color: #f3efef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  background-color: #0C907D;
+  color: #f3efef;
+}
+
+.gambar-slide {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 45.31%, rgba(0, 0, 0, 0.911) 100%);
+  border-radius: 5px;
+}
+
+
+
+footer {
+  background-color: #0C907D;
+}
+
+.isi-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .selamat {
+    font-size: 14px;
+  }
+
+  .pptq {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .program {
+    font-size: 13px;
+  }
+
+  .ket {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+    margin-top: 10%;
+}
+
+.saran {
+    background: linear-gradient(rgba(0, 0, 0, 0.51), rgba(0, 0, 0, 0.51)), url("../assets/img2.jpg");
+    height: 10rem;
+    flex-shrink: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.tulisan-saran {
+    letter-spacing: 8px;
+    font-size: 24px;
+}
+
+.card-luar {
+    margin-top: 10rem;
+}
+
+.card-dalam {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: #0C907D;
+    margin-top: 5rem;
+}
+
+.isi-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .banner {
+        margin-top: 15%;
+    }
+
+    .saran {
+        height: 7rem;
+    }
+
+    .tulisan-saran {
+        letter-spacing: 4px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .saran {
+        height: 7rem;
+    }
+
+    .tulisan-saran {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .banner {
+        margin-top: 30%;
+    }
+}
