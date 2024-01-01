@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.btn-lihat {
+    width: 10rem;
+}
+
 .tulisan-saran {
     letter-spacing: 8px;
     font-size: 24px;
@@ -70,5 +74,9 @@ footer {
 @media only screen and (max-width: 500px) {
     .banner {
         margin-top: 30%;
+    }
+
+    .btn-lihat {
+        width: 7rem;
     }
 }

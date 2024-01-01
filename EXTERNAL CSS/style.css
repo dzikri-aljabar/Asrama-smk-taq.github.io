@@ -43,6 +43,12 @@ footer {
   align-items: center;
 }
 
+@media only screen and (max-width: 576px) {
+  .ss {
+    text-align: justify;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .selamat {
     font-size: 14px;
