@@ -31,7 +31,14 @@
   border-radius: 5px;
 }
 
+.pptq {
+  letter-spacing: 3px;
+}
 
+.pp {
+  width: 200px;
+  height: 200px;
+}
 
 footer {
   background-color: #0C907D;
