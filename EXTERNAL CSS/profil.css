@@ -32,3 +32,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media only screen and (max-width: 576px) {
+  .ss {
+    text-align: justify;
+  }
+}
